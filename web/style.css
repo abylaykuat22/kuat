@@ -1,0 +1,455 @@
+body {
+    font-family: Calibri;
+    background-color: rgb(235, 235, 235);
+    margin: 0px;
+}
+
+.header {
+    height: 55px;
+    background-color: white;
+}
+
+.container {
+    margin: 0 auto;
+    min-height: 800px;
+    width: 58%;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+.logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.logotip a {
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.logoname {
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.search {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 10px;
+
+
+}
+
+.search input {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 5px;
+    border-color: white;
+
+
+}
+
+
+.logout {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+.image {
+    padding: 5px;
+}
+
+.image img {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+
+.quit {
+    border-color: white;
+    color: rgb(139, 139, 139);
+    width: 25px;
+}
+
+.name {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.leftside {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+
+.profile a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+.midside {
+    width: 25%;
+    margin: 20px 10px 10px 10px;
+}
+
+.photo {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+.image1 img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+
+.btn {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    border-color: rgb(235, 235, 235);
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+}
+
+.data21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.data21 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+    padding-bottom: 20px;
+}
+
+
+.photo2 {
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.data22 a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.btn2 {
+    border-color: white;
+    background-color: white;
+    color: rgb(104, 104, 104);
+}
+
+
+.photo3 {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.photo31 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.data23 {
+    display: flex;
+}
+
+.data231 a {
+    padding-left: 10px;
+    color: rgb(43, 20, 173);
+    text-decoration: none;
+}
+
+.data232 a {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+}
+
+
+.photo32 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image231 img {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+
+.image231 a {
+    font-size: 15px;
+    color: rgb(33, 33, 66);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.rightside {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.other {
+    margin: 20px 10px 0px 10px;
+    background-color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 15px;
+
+}
+
+.other31 a {
+    border-color: white;
+    color: rgb(104, 104, 104);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.data31 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.data312 a {
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-size: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.leftinfo {
+    width: 28%;
+    color: rgb(104, 104, 104);
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.leftinfo div {
+    padding-bottom: 10px;
+}
+
+.rightinfo {
+    width: 72%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightinfo a {
+    text-decoration: none;
+    color: rgb(12, 96, 124);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.btn31 {
+    width: 100%;
+    border-color: white;
+    height: 40px;
+    color: rgb(12, 96, 124);
+    font-size: 14px;
+    background-color: white;
+}
+
+
+.other31 {
+
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+
+.line {
+    margin: 0px 10px 0px 10px;
+}
+
+
+.other2 {
+    margin: 0px 10px 10px 10px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 15px;
+}
+
+.other2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.result a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(12, 96, 124);
+}
+
+.letter a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+}
+
+
+.other3 {
+    margin: 10px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 15px;
+}
+
+.other3photos {
+    display: flex;
+}
+
+.other3letter a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.other3number a {
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 10px;
+    color: rgb(104, 104, 104);
+}
+
+.other3photos2 {
+    display: flex;
+    justify-content: center;
+}
+
+.other3photoimage {
+    width: 150px;
+    width: 150px;
+
+}
+
+.other3photoimage img {
+
+    width: 100%;
+
+}
+
+
+.other4 {
+    margin: 10px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    border-color: white;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.other4texarea {
+
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    border-color: white;
+    width: 100%;
+
+}
+
+.other4texarea {
+
+}
+
+
+.other5 {
+    margin: 10px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding: 15px;
+
+}
+
+
+
+
+
+
